@@ -1,0 +1,93 @@
+
+body{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0%;
+  background-color: #555;
+}
+#titre1{
+  text-align: center;
+  font-size: 4rem;
+  font-family: sans-serif;
+  background-color: rgb(38, 73, 10);
+  margin: 0%;
+}
+h2{
+  font-size: 2.5rem;
+  text-align: center;
+  font-family: serif;
+}
+.menu{
+  text-align: center;
+  background-color: rgba(232, 238, 235, 0.548);
+  font-size: 1rem;
+  list-style:none;
+  line-height: 10rem;
+  padding: 0px;
+  border-right: solid;
+  width: 10%;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+.menuHorizontal{
+  background-color: rgb(38, 73, 10);
+  text-align: right;        
+  padding:0;            
+}
+.menuHorizontal li{
+  margin: 1%;
+  display: inline-block;
+}
+.textAcoter{ 
+  margin-left: 11%;
+  padding:1px 16px;
+}
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+li a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+.active {
+  background-color: #5e6160;
+  color: white;
+}
+ul{
+  margin: 0%;
+  padding: 0%;
+  list-style-type: none;
+}
+.tableau{
+  margin-left: 11%;
+  padding:1px 16px;
+  text-decoration: none;
+}
+th,td {
+  padding-left: 40%;
+  padding-right: 40%;
+}
+table {
+  text-align: center;
+  width: 60%;
+  margin: 5%
+}
+#Photo {  
+  display: block;
+  margin-top: 5%;
+  margin-left:auto;
+  margin-right: auto;
+  padding:1px 16px;
+  width : 800px;
+  height: 400px;
+}
+#centre{  
+  text-align: center;
+}
+  
+  
+
+  
+  
